@@ -1,6 +1,6 @@
 import { AiFillStar } from "react-icons/ai";
 
-export default function starBtn() {
+export default function starBtns() {
   return (
     <div>
       <button className="starBtn">

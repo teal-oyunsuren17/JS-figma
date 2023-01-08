@@ -2,10 +2,10 @@ export default function Section5() {
   return (
     <div className="d-flex flex-row">
       <div>
-        <img src="./images/speaker.png" />
+        <img src="./images/speaker.png" alt="" />
         <div>
-          <h4></h4>
-          <p></p>
+          <h4>nbb</h4>
+          <p>vv</p>
         </div>
       </div>
       <div></div>

@@ -1,6 +1,5 @@
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import starBtn from "./starBtn";
 
 export default function Section3() {
   return (
@@ -23,7 +22,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <starBtns />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
