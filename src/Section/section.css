@@ -1,0 +1,123 @@
+#nextBtn {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 3px;
+    background-color: transparent;
+    color: #ADADAD;
+}
+.nextBtns {
+    text-align: center;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    background-color: #EDA415;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 21.573px;
+    position: absolute;
+    top: 189px;
+    right: -31px;
+}
+
+.imgPrice {
+    position: relative;
+}
+
+.productLine {
+    position: relative;
+}
+
+.productLineEl {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #A5A5A5;
+    border-radius: 20px;
+}
+
+.productLineBtn {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+.proBtn1 {
+    position: absolute;
+    left: 18px;
+    top: 59px;
+}
+
+.proBtn2 {
+    position: absolute;
+    right: 18px;
+    top: 59px;
+}
+
+.topProList {
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.product {
+    width: 308.83px;
+    height: 313.75px;
+    position: relative;
+    border: 1px #B6B6B6 solid;
+    border-radius: 19.67px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.starBtn {
+    border: none;
+    color: grey;
+    background-color: transparent;
+}
+
+.shopBtn {
+    border: none;
+    background-color: #EDA415;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 214px;
+    right: 32px;
+}
+
+.heartBtn {
+    border: none;
+    background-color: #B3D4E5;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 32px;
+}
+
+.newLaptop {
+    width: 1315px;
+    height: 417px;
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.proInf {
+    position: absolute;
+    left: 797px;
+    top: 91px;
+}
+
+.infBtn {
+    border: none;
+    background-color: #EDA415;
+    border-radius: 20px;
+    color: #fff;
+}
