@@ -1,5 +1,6 @@
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import StarBtn from "./starBtn";
 
 export default function Section3() {
   return (
@@ -22,7 +23,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtns />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -35,7 +36,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -48,7 +49,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -61,7 +62,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -74,7 +75,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -87,7 +88,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -100,7 +101,7 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
@@ -113,17 +114,16 @@ export default function Section3() {
           </button>
           <h4>Camera</h4>
           <p>$11,70</p>
-          <starBtn />
+          <StarBtn />
           <button className="shopBtn">
             <AiOutlineShoppingCart />
           </button>
         </div>
-
-        <div className="nextBtns">
-          <button id="nextBtn"></button>
-          <button id="nextBtn"></button>
-          <button id="nextBtn"></button>
-        </div>
+      </div>
+      <div className="nextBtns">
+        <button id="nextBtn"></button>
+        <button id="nextBtn"></button>
+        <button id="nextBtn"></button>
       </div>
     </div>
   );
