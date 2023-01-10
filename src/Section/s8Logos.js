@@ -1,4 +1,4 @@
-export default function Section8() {
+export default function S8Logos() {
   return (
     <div className="sec6">
       <div>

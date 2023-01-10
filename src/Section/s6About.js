@@ -2,7 +2,7 @@ import { TbMailbox } from "react-icons/tb";
 import { FaCrown } from "react-icons/fa";
 import { RiDoorLockBoxLine } from "react-icons/ri";
 
-export default function Section6() {
+export default function S6About() {
   return (
     <div className="sec6">
       <div className="d-flex flex-row">

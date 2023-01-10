@@ -1,26 +1,26 @@
-import Section1 from "./section1";
 import "./section.css";
-import Section2 from "./section2";
-import Section3 from "./section3";
-import Section4 from "./section4";
-import Section5 from "./section5";
-import Section6 from "./section6";
-import Section7 from "./section7";
-import Section8 from "./section8";
-import Section9 from "./section9";
+import S1CanonCamera from "./s1CanonCamera";
+import S2RunList from "./s2RunList";
+import S3TopProducts from "./s3TopProducts";
+import S4LaptopSale from "./s4LaptopSale";
+import S5See3Product from "./s5See3Product";
+import S6About from "./s6About";
+import S7Comments from "./s7Comments";
+import S8Logos from "./s8Logos";
+import S9Information from "./s9Information";
 
 export default function Section() {
   return (
     <div>
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Section8 />
-      <Section9 />
+      <S1CanonCamera />
+      <S2RunList />
+      <S3TopProducts />
+      <S4LaptopSale />
+      <S5See3Product />
+      <S6About />
+      <S7Comments />
+      <S8Logos />
+      <S9Information />
     </div>
   );
 }

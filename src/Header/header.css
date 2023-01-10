@@ -71,9 +71,18 @@
 .headMenu {
     background-color: #F4F4F4;
     padding: 0 63px;
+}
+
+.headMenuDropdowns {
     gap: 98px;
 }
 
 .headMenuDrop {
     background-color: #EDA415;
+}
+
+.headMenu p {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #003F62;
 }

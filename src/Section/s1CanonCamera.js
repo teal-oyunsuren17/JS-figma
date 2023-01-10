@@ -1,4 +1,4 @@
-export default function Section1() {
+export default function S1CanonCamera() {
   return (
     <div className="d-flex flex-row justify-content-between p-4">
       <div>

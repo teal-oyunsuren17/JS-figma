@@ -1,7 +1,7 @@
 import StarBtn from "./starBtn";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-export default function Section5() {
+export default function S5See3Product() {
   return (
     <div className="d-flex flex-row">
       <div className="d-flex flex-row align-items-center">

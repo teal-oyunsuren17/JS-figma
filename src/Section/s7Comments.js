@@ -1,4 +1,4 @@
-export default function Section7() {
+export default function S7Comments() {
   return (
     <div>
       <div className="d-flex flex-row m-3">

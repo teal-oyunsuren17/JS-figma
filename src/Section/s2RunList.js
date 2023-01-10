@@ -1,7 +1,7 @@
 import { BsArrowRight } from "react-icons/bs";
 import { BsArrowLeft } from "react-icons/bs";
 
-export default function Section2() {
+export default function S2RunList() {
   return (
     <div className="productLine d-flex flex-row justify-content-around">
       <div className="productLineEl">

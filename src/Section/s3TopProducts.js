@@ -2,7 +2,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import StarBtn from "./starBtn";
 
-export default function Section3() {
+export default function S3TopProducts() {
   return (
     <div>
       <div className="d-flex flex-row justify-content-between p-4">

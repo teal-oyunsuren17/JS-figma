@@ -1,6 +1,6 @@
 import background from "./img/laptop.png";
 
-export default function Section4() {
+export default function S4LaptopSale() {
   return (
     <div
       className="newLaptop"

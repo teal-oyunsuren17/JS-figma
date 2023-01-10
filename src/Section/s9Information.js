@@ -1,4 +1,4 @@
-export default function Section9() {
+export default function S9Information() {
   return (
     <div>
       <div className="d-flex flex-row justify-content-between">
