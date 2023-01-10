@@ -1,13 +1,64 @@
+.s1CanonCamera {
+    padding: 38px 175px 0 175px;
+    margin-bottom: 52px;
+}
+
+.s1CanonCamera h2 {
+    font-size: 43px;
+    color: #1B5A7D;
+    font-weight: 700;
+    width: 175px;
+    margin-bottom: 19px;
+}
+
+.s1Btns {
+    gap: 21px;
+    margin-bottom: 49px;
+}
+
+.s1ShopnowBtn {
+    padding: 18.5px 32px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #EDA415;
+    font-weight: 600;
+}
+
+.s1ViewmoreBtn {
+    padding: 18.5px 32px;
+    border: 1px solid #316887;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #316887;
+    font-weight: 600;
+}
+
+.nextBtns {
+    text-align: center;
+}
+
+.nextBtns button:first-child {
+    background-color: #EDA415 !important;
+    border: none !important;
+}
+
 #nextBtn {
     width: 16px;
     height: 16px;
     border-radius: 50%;
     margin-right: 3px;
     background-color: transparent;
-    color: #ADADAD;
+    border: 1px solid #ADADAD;
 }
-.nextBtns {
-    text-align: center;
+
+.s1CameraImg {
+    max-height: 394px;
+    width: 331px;
+}
+
+.imgPrice {
+    position: relative;
 }
 
 .price {
@@ -25,37 +76,55 @@
     right: -31px;
 }
 
-.imgPrice {
-    position: relative;
+.s2ProductLine {
+    gap: 25px;
+    margin: 0 108px;
 }
 
-.productLine {
-    position: relative;
-}
-
-.productLineEl {
+.s2ProductLineEl {
+    flex: 1;
     display: flex;
     flex-direction: row;
     border: 1px solid #A5A5A5;
     border-radius: 20px;
+    padding: 20px 0;
+    position: relative;
 }
 
-.productLineBtn {
+.s2ProductLineImg {
+    width: auto;
+    height: 120px;
+}
+
+.s2ProductLineEl p {
+    color: #1B5A7D;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.s2ProductLineEl h4 {
+    color: #1B5A7D;
+    font-weight: 600;
+    font-size: 22.37px;
+}
+
+.s2ProductLineBtn {
     width: 37px;
     height: 37px;
+    top: 62px;
     border-radius: 50%;
+    border: none;
+    background-color: #EAEAEA;
 }
 
-.proBtn1 {
+.s2ProBtn1 {
     position: absolute;
-    left: 18px;
-    top: 59px;
+    left: -18px;
 }
 
-.proBtn2 {
+.s2ProBtn2 {
     position: absolute;
-    right: 18px;
-    top: 59px;
+    right: -18px;
 }
 
 .topProList {
