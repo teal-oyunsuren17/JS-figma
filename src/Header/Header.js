@@ -1,14 +1,14 @@
 import "./header.css";
-import Header1 from "./header1";
-import Header2 from "./header2";
-import Header3 from "./header3";
+import HeaderContact from "./headerContact";
+import HeaderLogo from "./headerLogo";
+import HeaderMenu from "./headerMenu";
 
 export default function Header() {
   return (
     <div>
-      <Header1 />
-      <Header2 />
-      <Header3 />
+      <HeaderContact />
+      <HeaderLogo />
+      <HeaderMenu />
     </div>
   );
 }

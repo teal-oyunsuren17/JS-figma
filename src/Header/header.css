@@ -1,11 +1,79 @@
-/* button {
-    border: none;
-} */
-
-.header2 {
-    background-color: #003F62;
+.headerContact {
+    padding: 21px 61px;
+    color: #292D32;
 }
 
-.logo1 {
-    margin-right: 85px;
+.headerContact div a {
+    color: #292D32;
+}
+
+.headConBtns {
+    gap: 40px;
+}
+
+.headerContact div button {
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.headLogo {
+    background-color: #003F62;
+    padding: 22px 119px;
+}
+
+.headLogoStart {
+    gap: 85px;
+}
+
+.headLogoSearch {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.headLogoInput {
+    border-radius: 20px 0 0 20px;
+    border: none;
+    padding: 17.5px 25px;
+}
+
+.headLogoBtn {
+    border-radius:20px ;
+    border: none;
+    padding: 17.5px 41px;
+    background-color: #EDA415;
+    color: #fff;
+}
+
+.headLogoIcons {
+    gap: 31px;
+}
+
+.headLogoIcons a {
+    color: #fff;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.headLogoIconNum {
+    width: 15px;
+    height: 15px;
+    background-color: #EDA415;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 9.5px;
+}
+
+.headMenu {
+    background-color: #F4F4F4;
+    padding: 0 63px;
+    gap: 98px;
+}
+
+.headMenuDrop {
+    background-color: #EDA415;
 }

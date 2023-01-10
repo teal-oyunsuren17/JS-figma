@@ -1,11 +1,15 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
-export default function Header3() {
+export default function HeaderMenu() {
   return (
-    <div className="d-flex flex-row gap-5 justify-content-around">
+    <div className="headMenu d-flex flex-row">
       <div>
-        <DropdownButton id="dropdown-basic-button" title="Browse categories">
+        <DropdownButton
+          className="headMenuDrop"
+          id="dropdown-basic-button"
+          title="Browse categories"
+        >
           <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
           <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
