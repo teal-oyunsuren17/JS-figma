@@ -131,6 +131,14 @@
     right: -18px;
 }
 
+.s3Main {
+    margin: 100px 60px 0 60px;
+}
+
+.s3header {
+    margin-bottom: 50px;
+}
+
 .s3header h2{ 
 font-weight: 600;
 color: #1B5A7D;
@@ -140,18 +148,27 @@ color: #1B5A7D;
     gap: 10px;
 }
 
-.topProList {
+.s3TopProList {
     border-radius: 20px;
+    border: 1px solid #003F62;
+    font-weight: 500;
+    color: #1B5A7D;
+    padding: 10px;
+    background-color: transparent;
 }
 
-.product {
+.s3Product {
     width: 308.83px;
     height: 313.75px;
     position: relative;
     border: 1px #B6B6B6 solid;
     border-radius: 19.67px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
+}
+
+.s3ProductImg {
+    height: 60%;
 }
 
 .starBtn {
@@ -167,7 +184,7 @@ color: #1B5A7D;
     border-radius: 50%;
     position: absolute;
     top: 214px;
-    right: 32px;
+    right: 18px;
 }
 
 .heartBtn {
@@ -175,8 +192,8 @@ color: #1B5A7D;
     background-color: #B3D4E5;
     border-radius: 50%;
     position: absolute;
-    top: 20px;
-    right: 32px;
+    top: 25px;
+    right: 18px;
 }
 
 .newLaptop {
