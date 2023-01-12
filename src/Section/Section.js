@@ -11,7 +11,7 @@ import S9Information from "./s9Information";
 
 export default function Section() {
   return (
-    <div>
+    <div className="mainSection">
       <S1CanonCamera />
       <S2RunList />
       <S3TopProducts />

@@ -5,9 +5,9 @@ import StarBtn from "./starBtn";
 export default function S3TopProducts() {
   return (
     <div>
-      <div className="d-flex flex-row justify-content-between p-4">
+      <div className="s3header d-flex flex-row justify-content-between ">
         <h2>Popular products</h2>
-        <div>
+        <div className="s3HeaderBtns d-flex flex-row">
           <button className="topProList">Cameras</button>
           <button className="topProList">Laptops</button>
           <button className="topProList">Tablets</button>
